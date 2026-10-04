@@ -1,0 +1,24 @@
+{
+  "kit": "1",
+  "repo": "munincloud-conector-holded",
+  "programa": "Holded (plantilla de importación de facturas de compra, CSV)",
+  "marca": {"nombre": "Holded®", "titular": "Holded"},
+  "descripcion": "De la respuesta v1 de la API de auditoría de facturas de MuninCloud al CSV de la plantilla de compras de Holded.",
+  "pieza_comun": {"fichero": "munincloud_v1.py", "version": "1.3.0", "md5": "dc9d2ece966f711e96533164f4e989fa"},
+  "mi_nif": "B00000018",
+  "ejecutar": ["python3", "munincloud_holded.py", "--mi-nif", "{MI_NIF}", "--cuenta-gasto", "629", "--salida", "{SALIDA}", "{ENTRADAS}"],
+  "importables": ["holded_compras.csv", "holded_compras_excel_es.csv"],
+  "revisar": {"fichero": "revisar.csv", "columna_documento": "documento", "solo_si": {"columna": "nivel", "valor": "REVISAR"}},
+  "omitidos": "omitidos.csv",
+  "desafinados": ["pruebas/datos/desafinada__cuota.json", "pruebas/datos/desafinada__obligatorio.json"],
+  "ficheros": [
+    "munincloud_holded.py",
+    "munincloud_v1.py",
+    "ejemplos/entrada/*.json",
+    "ejemplos/salida/*",
+    "ejemplos/claves_iva_ejemplo.csv",
+    "pruebas/test_conector.py",
+    "pruebas/via_b.py",
+    "pruebas/datos/*"
+  ]
+}

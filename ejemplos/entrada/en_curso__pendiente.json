@@ -1,0 +1,10 @@
+{
+ "trabajo": "trb_00000000000000000000000017",
+ "estado": "en_curso",
+ "creado": "2026-10-02T16:18:24Z",
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

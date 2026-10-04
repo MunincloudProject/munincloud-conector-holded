@@ -1,0 +1,85 @@
+{
+ "trabajo": "trb_00000000000000000000000011",
+ "creado": "2026-10-02T16:00:00Z",
+ "terminado": "2026-10-02T16:00:30Z",
+ "estado": "terminado",
+ "caduca": "2026-10-03T16:00:30Z",
+ "documento": {
+  "cliente": {
+   "nombre": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "cif_nif": "B99999997",
+   "territorio": "",
+   "pais": "",
+   "direccion": "Avenida del Puerto 22, 46021 Valencia, España",
+   "codigo_postal": "",
+   "ciudad": "",
+   "email": ""
+  },
+  "proveedor": {
+   "nombre": "Nuestra Empresa (Emisor)",
+   "cif_nif": "B00000018",
+   "territorio": "",
+   "pais": "",
+   "direccion": "",
+   "codigo_postal": "",
+   "ciudad": "",
+   "email": ""
+  },
+  "factura": {
+   "numero": "F7-V-0003",
+   "fecha": "2026-09-25",
+   "divisa": "EUR",
+   "base_total": 200.0,
+   "iva_total": 42.0,
+   "total_factura": 252.4,
+   "es_rectificativa": false,
+   "recargo_total": null
+  },
+  "impuestos_y_retenciones": [],
+  "lineas": [
+   {
+    "qty": 20.0,
+    "rate": 10.0,
+    "amount": 200.0,
+    "es_descuento": false,
+    "short_name": "Camisetas de algodon",
+    "descripcion_original": "Camisetas de algodon",
+    "tax_percent": 21.0
+   }
+  ],
+  "verificacion_identidad": {
+   "verificado_por": "Agencia Tributaria (censo de NIF)",
+   "identificador": "B99999997",
+   "razon_social_oficial": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "situacion": "IDENTIFICADO",
+   "fecha_verificacion": "2026-09-25"
+  },
+  "lectura_papel": {
+   "emisor": "B00000018",
+   "receptor": "B99999997",
+   "identificadores": [
+    "B00000018",
+    "B99999997"
+   ],
+   "confianza": "alta",
+   "motivo": "los dos papeles salen de pistas del propio papel",
+   "fuente_texto": "capa_texto"
+  },
+  "trazabilidad": {
+   "desglose_cuadra": true,
+   "errores_finales": 1
+  },
+  "direccion": "EMITIDA",
+  "avisos": [
+   {
+    "codigo": "LECTURA_INCOMPLETA",
+    "mensaje": "La auditoría terminó sin que todas las comprobaciones cuadraran. Revise el documento antes de contabilizarlo."
+   }
+  ]
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

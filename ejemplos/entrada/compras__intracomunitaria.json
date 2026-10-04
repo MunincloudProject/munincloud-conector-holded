@@ -1,0 +1,73 @@
+{
+ "trabajo": "trb_00000000000000000000000015",
+ "creado": "2026-10-02T16:00:00Z",
+ "terminado": "2026-10-02T16:00:30Z",
+ "estado": "terminado",
+ "caduca": "2026-10-03T16:00:30Z",
+ "documento": {
+  "cliente": {
+   "nombre": "TEST SL",
+   "cif_nif": "B00000018",
+   "direccion": ""
+  },
+  "proveedor": {
+   "nombre": "POMPES DU NORD SARL",
+   "cif_nif": "FR40123456824",
+   "direccion": "1 rue de Lille, 59000 Lille"
+  },
+  "factura": {
+   "numero": "FR-2026-0412",
+   "fecha": "2026-09-22",
+   "divisa": "EUR",
+   "base_total": 420.0,
+   "total_factura": 420.0,
+   "es_rectificativa": false,
+   "tiene_recargo_equivalencia": false,
+   "iva_total": 0.0,
+   "recargo_total": null
+  },
+  "impuestos_y_retenciones": [],
+  "lineas": [
+   {
+    "descripcion_original": "Portes",
+    "short_name": "Portes",
+    "qty": 1.0,
+    "rate": 20.0,
+    "amount": 20.0,
+    "tax_percent": 0.0,
+    "es_descuento": false
+   },
+   {
+    "descripcion_original": "Bomba dosificadora inox",
+    "short_name": "Bomba dosificadora inox",
+    "qty": 2.0,
+    "rate": 200.0,
+    "amount": 400.0,
+    "tax_percent": 0.0,
+    "es_descuento": false
+   }
+  ],
+  "lectura_papel": {
+   "emisor": "FR40123456824",
+   "receptor": "B00000018",
+   "identificadores": [
+    "FR40123456824",
+    "B00000018"
+   ],
+   "confianza": "alta",
+   "motivo": "los dos papeles salen de pistas del propio papel",
+   "fuente_texto": "capa_texto"
+  },
+  "trazabilidad": {
+   "desglose_cuadra": true,
+   "errores_finales": 0
+  },
+  "direccion": "RECIBIDA",
+  "avisos": []
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

@@ -1,0 +1,5 @@
+"documento";"trabajo";"motivo"
+"en_curso__pendiente.json";"trb_00000000000000000000000017";"el trabajo no ha terminado (estado en_curso)"
+"nofactura__recibida.json";"trb_00000000000000000000000006";"rechazado por la API: NO_ES_FACTURA"
+"nofactura__solo_clasificar.json";"trb_00000000000000000000000007";"rechazado por la API: NO_ES_FACTURA"
+"rechazado__multifactura.json";"trb_00000000000000000000000016";"rechazado por la API: MULTIFACTURA"

@@ -1,0 +1,75 @@
+{
+ "trabajo": "trb_00000000000000000000000004",
+ "creado": "2026-10-02T16:00:00Z",
+ "terminado": "2026-10-02T16:00:30Z",
+ "estado": "terminado",
+ "caduca": "2026-10-03T16:00:30Z",
+ "documento": {
+  "cliente": {
+   "nombre": "TEST SL",
+   "cif_nif": "B00000018",
+   "direccion": ""
+  },
+  "proveedor": {
+   "nombre": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "cif_nif": "B99999997",
+   "direccion": ""
+  },
+  "factura": {
+   "numero": "F7-R-0001",
+   "fecha": "2026-09-25",
+   "divisa": "EUR",
+   "base_total": -50.0,
+   "iva_total": -5.0,
+   "total_factura": -55.0,
+   "es_rectificativa": true,
+   "tiene_recargo_equivalencia": false,
+   "factura_rectificada": {
+    "numero": "F7-C-0001",
+    "fecha": "2026-09-25"
+   },
+   "recargo_total": null
+  },
+  "impuestos_y_retenciones": [],
+  "lineas": [
+   {
+    "descripcion_original": "Abono curso de formacion presencial",
+    "short_name": "Abono curso de formacion presencial",
+    "qty": 1.0,
+    "rate": -50.0,
+    "amount": -50.0,
+    "tax_percent": 10.0,
+    "es_descuento": false
+   }
+  ],
+  "verificacion_identidad": {
+   "verificado_por": "Agencia Tributaria (censo de NIF)",
+   "identificador": "B99999997",
+   "razon_social_oficial": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "situacion": "IDENTIFICADO",
+   "fecha_verificacion": "2026-09-25"
+  },
+  "lectura_papel": {
+   "emisor": "B99999997",
+   "receptor": "B00000018",
+   "identificadores": [
+    "B99999997",
+    "B00000018"
+   ],
+   "confianza": "alta",
+   "motivo": "los dos papeles salen de pistas del propio papel",
+   "fuente_texto": "capa_texto"
+  },
+  "trazabilidad": {
+   "desglose_cuadra": true,
+   "errores_finales": 0
+  },
+  "direccion": "RECIBIDA",
+  "avisos": []
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "trabajo": "trb_00000000000000000000000016",
+ "estado": "rechazado",
+ "creado": "2026-10-02T16:20:00Z",
+ "terminado": "2026-10-02T16:20:31Z",
+ "error": {
+  "codigo": "MULTIFACTURA",
+  "mensaje": "El documento contiene más de una factura. Un proceso es una factura: súbalas por separado."
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "trabajo": "trb_00000000000000000000000014",
+ "creado": "2026-10-02T16:00:00Z",
+ "terminado": "2026-10-02T16:00:30Z",
+ "estado": "terminado",
+ "caduca": "2026-10-03T16:00:30Z",
+ "documento": {
+  "cliente": {
+   "nombre": "TEST SL",
+   "cif_nif": "B00000018",
+   "direccion": ""
+  },
+  "proveedor": {
+   "nombre": "ALPINE SOFTWARE AG",
+   "cif_nif": "CHE-123.456.789",
+   "direccion": "Bahnhofstrasse 1, 8001 Zürich"
+  },
+  "factura": {
+   "numero": "CH-2026-77",
+   "fecha": "2026-09-22",
+   "divisa": "USD",
+   "base_total": 200.0,
+   "total_factura": 200.0,
+   "es_rectificativa": false,
+   "tiene_recargo_equivalencia": false,
+   "iva_total": 0.0,
+   "recargo_total": null
+  },
+  "impuestos_y_retenciones": [],
+  "lineas": [
+   {
+    "descripcion_original": "Licencia software anual",
+    "short_name": "Licencia software anual",
+    "qty": 1.0,
+    "rate": 200.0,
+    "amount": 200.0,
+    "tax_percent": 0.0,
+    "es_descuento": false
+   }
+  ],
+  "lectura_papel": {
+   "emisor": "CHE123456789",
+   "receptor": "B00000018",
+   "identificadores": [
+    "CHE123456789",
+    "B00000018"
+   ],
+   "confianza": "alta",
+   "motivo": "los dos papeles salen de pistas del propio papel",
+   "fuente_texto": "capa_texto"
+  },
+  "trazabilidad": {
+   "desglose_cuadra": true,
+   "errores_finales": 0
+  },
+  "direccion": "RECIBIDA",
+  "avisos": []
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}

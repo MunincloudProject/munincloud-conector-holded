@@ -1,0 +1,71 @@
+{
+ "trabajo": "trb_00000000000000000000000002",
+ "creado": "2026-10-02T16:00:00Z",
+ "terminado": "2026-10-02T16:00:30Z",
+ "estado": "terminado",
+ "caduca": "2026-10-03T16:00:30Z",
+ "documento": {
+  "cliente": {
+   "nombre": "TEST SL",
+   "cif_nif": "B00000018",
+   "direccion": ""
+  },
+  "proveedor": {
+   "nombre": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "cif_nif": "B99999997",
+   "direccion": ""
+  },
+  "factura": {
+   "numero": "F7-I-0001",
+   "fecha": "2026-09-25",
+   "divisa": "EUR",
+   "base_total": 4000.0,
+   "iva_total": 840.0,
+   "total_factura": 4840.0,
+   "es_rectificativa": false,
+   "tiene_recargo_equivalencia": false,
+   "recargo_total": null
+  },
+  "impuestos_y_retenciones": [],
+  "lineas": [
+   {
+    "descripcion_original": "Servidor informatico Dell PowerEdge R760",
+    "short_name": "Servidor informatico Dell PowerEdge R760",
+    "qty": 1.0,
+    "rate": 4000.0,
+    "amount": 4000.0,
+    "tax_percent": 21.0,
+    "es_descuento": false
+   }
+  ],
+  "verificacion_identidad": {
+   "verificado_por": "Agencia Tributaria (censo de NIF)",
+   "identificador": "B99999997",
+   "razon_social_oficial": "OPERACION NO IDENTIFICADA EN CONSTITUCIÓN",
+   "situacion": "IDENTIFICADO",
+   "fecha_verificacion": "2026-09-25"
+  },
+  "lectura_papel": {
+   "emisor": "B99999997",
+   "receptor": "B00000018",
+   "identificadores": [
+    "B99999997",
+    "B00000018"
+   ],
+   "confianza": "alta",
+   "motivo": "los dos papeles salen de pistas del propio papel",
+   "fuente_texto": "capa_texto"
+  },
+  "trazabilidad": {
+   "desglose_cuadra": true,
+   "errores_finales": 0
+  },
+  "direccion": "RECIBIDA",
+  "avisos": []
+ },
+ "pool": {
+  "estado": "activa",
+  "disponibles": 100,
+  "aviso_80": false
+ }
+}
